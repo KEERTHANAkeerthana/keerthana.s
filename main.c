@@ -1,12 +1,16 @@
 #include <stdio.h>
-#include <conio.h>
-
+#include<conio.h>
 int main()
 {
-    int i=100;
-    for(i=0;i<=100;i++)
-    printf("\n Hello");
-    scanf("%d",&i);
-    getch();
-    }
+int num;
+printf("\n enter the number");
+scanf("%d",&num);
+if(num%2==0)
+{
+printf("%d is even",num);}
+else{
+printf("%d is odd",num);
+return 0;
+}
+}
 
