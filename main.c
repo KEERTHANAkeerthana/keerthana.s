@@ -1,18 +1,12 @@
 #include <stdio.h>
 #include <conio.h>
-void main()
+
+int main()
 {
-int year;
-    printf("\n enter the year");
-    scanf("%d",&year);
-    if(year%4==0&&year%100!=10&&year%400!=0)
-    {
-    printf("\n the year is leap year");
+    int i=100;
+    for(i=0;i<=100;i++)
+    printf("\n Hello");
+    scanf("%d",&i);
+    getch();
     }
-    else
-    {
-    printf("\n the year is not leap");
-    }
-getch();
-}
 
