@@ -1,16 +1,15 @@
 #include <stdio.h>
 #include <conio.h>
-
-int main()
+void main()
 {
-    int num;
-    printf("\n enter any number:");
-    scanf("%d",&num);
-    if(num==0)
-        printf("\n the value is equal to zero");
-    else if(num>0)
-        printf("\n the number is positive");
-    else if (num<0)
-        printf("\n the number is negative");
-    return 0;
+    char ch;
+    printf("\n enter the character:");
+    scanf("%c",&ch);
+    if(ch=='a'||ch=='e'||ch=='i'||ch=='o'||ch=='u'){
+    printf("\n enter the character is vowel");
+}
+    else{
+        printf("\n the character is not vowel");
+    }
+    getch();
     }
